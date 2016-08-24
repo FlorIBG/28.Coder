@@ -13,19 +13,19 @@
 	<header>
 		<div class="container">
 			<div class="row">
-				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">  <!-- Menu de navegacion -->
 					<div class="col-lg-4">
  	 <!-- El logotipo y el icono que despliega el menú se agrupan
        para mostrarlos mejor en los dispositivos móviles -->
 	 					<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex6-collapse">
-						      <span class="sr-only">Desplegar navegación</span>
-						      <span class="icon-bar"></span>
-						      <span class="icon-bar"></span>
-						      <span class="icon-bar"></span>
-						      <span class="icon-bar"></span>
+							    <span class="sr-only">Desplegar navegación</span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
+							    <span class="icon-bar"></span>
 							</button>
-	    					<a class="navbar-brand" href="#">Mi portafolio</a>
+	    					<a class="navbar-brand" href="#"><span class="black">Mi portafolio</span></a>
 	  					</div>
  					</div>
 					<div class="col-lg-8">
@@ -33,10 +33,10 @@
        otro elemento que se pueda ocultar al minimizar la barra -->
   						<div class="collapse navbar-collapse navbar-ex6-collapse navbar-right">
 						    <ul class="nav navbar-nav">
-							    <li><a href="#">SOBRE MI</a></li>
-							    <li><a href="#">SERVICIOS</a></li>
-							    <li><a href="#"><b>MIS TRABAJOS</b></a></li>
-							    <li><a href="#">CONTACTAME</a></li>
+							    <li><a href="#"><span class="black">SOBRE MI</span></a></li>
+							    <li><a href="#"><span class="black">SERVICIOS</span></a></li>
+							    <li><a href="#"><span class="black">MIS TRABAJOS</span></a></li>
+							    <li><a href="#"><span class="black">CONTACTAME</span></a></li>
 						    </ul>
   						</div>
 					</nav>
@@ -44,98 +44,125 @@
 			</div>
 		</div>
 	</header>
-	<section>
+	<section class="bg-paisaje"> <!-- bg paisaje -->
 		<div class="container">
 			<div class="row">
-				<di class="col-lg-12">
-					<p>HOLA, MI NOMBRE ES KATY <br> 	SOY CODER DE LABORATORIA</p>
-					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius, excepturi optio fugiat officiis in quam beatae esse? Ut explicabo, mollitia libero earum dolores dolor odit voluptatem. Facilis, maiores, quia.</p>
-					<a href="#"><button>Conoce mas.</button></a>
+				<di class="col-lg-12">  <!-- Presentacion -->
+					<p class="coder text-center"><b>HOLA, MI NOMBRE ES FLOR <br> SOY CODER DE LABORATORIA</b></p>
+					<hr class="hr1">  <!-- Linea -->
+					<p class="text-center mtop5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius, excepturi <br>optio fugiat officiis in quam beatae esse? Ut explicabo, mollitia libero earum dolores dolor odit voluptatem. Facilis, maiores, quia.</p>  
+					<a href="#">
+						<button class="btn btn-lg center-block btnconocemas mtop5"><span>Conoce mas.</span></button>
+					</a>
 				</di>
 			</div>
 		</div>
 	</section>
-	<section>
+	<section class="naranja">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h2>Sobre mi</h2>
-					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rem deleniti, ea atque sequi. Minus consequatur, laborum neque reprehenderit esse, accusamus, animi iste odit ut atque ullam similique doloremque labore.</p>
+					<h2 class="text-center">Sobre mi</h2>
+					<hr class="hr1 text-center" id="blanco">
+					<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rem deleniti, ea atque sequi.<br> Minus consequatur, laborum neque reprehenderit esse, accusamus, animi iste odit ut <br>atque ullam similique doloremque labore.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
+		<div class="container-fluid">
+			<div class="row mtop5">
+				<div class="col-lg-12 black text-center">
 					<h2>Servicios</h2>
-					<hr>
+					<hr class="hr1">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-3">
-					<img src="" alt="Diamante">
-					<h4>Desarrollo de plantillas</h4>
+					<img class="img-responsive center-block mtop5" src="img/icon/diamond.png" alt="Diamante">
+					<h4 class="text-center black">Desarrollo de plantillas</h4>
 					<h5><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque rem facilis quasi cum ullam</small></h5>
 				</div>
 				<div class="col-lg-3">
-					<img src="" alt="Enviar">
-					<h4>Campañas de Mailing</h4>
+					<img class="img-responsive center-block mtop5" src="img/icon/send.png" alt="Enviar">
+					<h4 class="text-center black">Campañas de Mailing</h4>
 					<h5><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque rem facilis quasi cum ullam</small></h5>
 				</div>
 				<div class="col-lg-3">
-					<img src="" alt="Periodico">
-					<h4>Full websites</h4>
+					<img class="img-responsive center-block mtop5" src="img/icon/newspaper.png" alt="Periodico">
+					<h4 class="text-center black">Full websites</h4>
 					<h5><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque rem facilis quasi cum ullam</small></h5>
 				</div>
 				<div class="col-lg-3">
-					<img src="" alt="Corazón">
-					<h4>Aplicaciones Android</h4>
+					<img class="img-responsive center-block mtop5" src="img/icon/heart.png" alt="Corazón">
+					<h4 class="text-center black">Aplicaciones Android</h4>
 					<h5><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sapiente doloremque rem facilis quasi cum ullam</small></h5>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-4 bg-img1 img-responsive">
+			<div class="row mtop5">
+				<div class="col-lg-4 bg-img background-img-responsive pd0" id="bg-1">
+					<div class="hover">
+						<p class="text-center"><b>Categoria</b></p>
+						<p class="lead text-center">Nombre Proyecto</p>
+					</div>
 				</div>
-				<div class="col-lg-4 bg-img2 img-responsive">
+				<div class="col-lg-4 bg-img background-img-responsive pd0" id="bg-2">
+					<div class="hover">
+						<p class="text-center"><b>Categoria</b></p>
+						<p class="lead text-center">Nombre Proyecto</p>
+					</div>
 				</div>
-				<div class="col-lg-4 bg-img3 img-responsive">
+				<div class="col-lg-4 bg-img background-img-responsive pd0" id="bg-3">
+					<div class="hover">
+						<p class="text-center"><b>Categoria</b></p>
+						<p class="lead text-center">Nombre Proyecto</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 bg-img4 img-responsive">
+				<div class="col-lg-4 bg-img background-img-responsive pd0" id="bg-4">
+					<div class="hover">
+						<p class="text-center"><b>Categoria</b></p>
+						<p class="lead text-center">Nombre Proyecto</p>
+					</div>
 				</div>
-				<div class="col-lg-4 bg-img5 img-responsive">
+				<div class="col-lg-4 bg-img background-img-responsive pd0" id="bg-5">
+					<div class="hover">
+						<p class="text-center"><b>Categoria</b></p>
+						<p class="lead text-center">Nombre Proyecto</p>
+					</div>
 				</div>
-				<div class="col-lg-4 bg-img6 img-responsive">
+				<div class="col-lg-4 bg-img background-img-responsive pd0" id="bg-6">
+					<div class="hover">
+						<p class="text-center"><b>Categoria</b></p>
+						<p class="lead text-center">Nombre Proyecto</p>
+					</div>
 				</div>
 			</div>
 			<div class="row cuadronegro">
-				<h3><b>Si quieres saber más sobre mi proyecto revisa mi github</b></h3>
-				<a href="#"><button>Ver mi GITHUB!</button></a>
+				<h3 class="text-center"><b>Si quieres saber más sobre mi proyecto revisa mi github</b></h3>
+				<a href="#"><button class="btn btn-lg center-block btnconocemas mtop5" id="btngithub"><span class="black">Ver mi GITHUB!</span></button></a>
 			</div>
 		</div>
+	</div>
 	</section>
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h2>CONTÁCTAME</h2>
-		    		<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa soluta dolore quas quia voluptas nisi natus aspernatur neque optio ipsum, nihil sint magni quo velit, fugit ipsam et minima ad?</p>		
+					<h2 class="black text-center">CONTÁCTAME</h2>
+		    		<hr class="hr1">
+					<p class="black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa soluta dolore quas quia voluptas nisi natus aspernatur neque optio ipsum, nihil sint magni quo velit, fugit ipsam et minima ad?</p>		
 				</div>	
 			</div>
-			<div class="row">
+			<div class="row mtop5">
 				<div class="col-lg-6">
-					<img src="" alt="Telefono">
-					<p>123-456-789</p>
+					<img class="img-responsive center-block" src="img/icon/phone.png" alt="Telefono">
+					<p class="black text-center">123-456-789</p>
 				</div>
 				<div class="col-lg-6">
-					<img src="" alt="Correo">
-					<p>katy@laboratoria.la</p>
+					<img class="img-responsive center-block" src="img/icon/envelope.png" alt="Correo">
+					<p class="black text-center">katy@laboratoria.la</p>
 				</div>
 			</div>
 		</div>

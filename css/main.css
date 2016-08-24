@@ -1,15 +1,97 @@
 *{
-	color: black;
+	color: white;
 }
 a{
-	text-decoration: none;
+	text-decoration: none !important;
 }
-body{
-	padding-top: 70px;
+.hr1{
+	width: 10%;
+	border: 1px #FA5858 solid;
 }
+/* Medidas */
+.mtop5{
+	margin-top: 5%;
+}
+.pd0{
+	padding: 0% !important;
+	margin: 0% !important;
+}
+
 /* Menu */
 .navbar.navbar-default{
-	background-color: transparent;
+	opacity: 0.5;
+	background-color: white;
 	width: 100%;
-	border: none;
+	border-bottom: solid 1px white;
+}
+/* Seccion bg presentacion */
+.bg-paisaje{
+	background-image: url("../img/header.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;;
+height: 750px;
+}
+.coder{
+	font-size: 350%;
+	margin-top: 15%;
+}
+.btnconocemas{
+	border-radius: 2em !important;
+	color: white;
+	background-color: #FA5858;
+}
+/* Seccion naranja */
+.naranja{
+	background-color: #FA5858;
+	padding: 10% 6%;
+}
+#blanco{
+	border-color: white !important;
+}
+/* Seccion iconos */
+.black{
+	color: black !important;
+}
+/* Seccion mosaico de imagenes */
+.bg-img{
+	width: 100%;
+	background-size: 100%;
+	height: 220px;
+	background-repeat: no-repeat;
+}
+#bg-1{
+	background-image: url("../img/1.jpg");
+}
+#bg-2{
+	background-image: url("../img/2.jpg");
+}
+#bg-3{
+	background-image: url("../img/3.jpg");
+}
+#bg-4{
+	background-image: url("../img/4.jpg");
+}
+#bg-5{
+	background-image: url("../img/5.jpg");
+}
+#bg-6{
+	background-image: url("../img/6.jpg");
+}
+.hover{
+	width: 100%;
+	height: 220px;
+	background-color: rgba(250, 88, 88, 0.9);
+	opacity: 0;
+}
+.bg-img :hover.hover{
+	opacity: .5;
+}
+
+/* Cuadro negro */
+.cuadronegro{
+	background-color: black;
+	padding: 2%;
+}
+#btngithub{
+	background-color: white !important;
 }
